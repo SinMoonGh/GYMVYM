@@ -2,7 +2,38 @@
 헬스장 인원 파악 제휴 서비스
 - 참여인원 : 6명
 - 프로젝트 기간 : 2024-07 ~ 2024-08
-- [GymBym 최종 발표 ppt](https://docs.google.com/presentation/d/1sKgyVYcdQNP8_XxJymx6IVWOp_o0j3kQ/edit?usp=sharing&ouid=102959621092836114036&rtpof=true&sd=true)
+- [GymBym 발표 ppt 보러가기](https://docs.google.com/presentation/d/117YGLrT9LOQEOik9-2FaK2x_qTCWJbkLZm0M9u5evkI/edit?usp=sharing)
+
+## 목차
+* [서비스 소개](#서비스-소개)
+* [backend 기술 스택](#백엔드-기술-스택)
+* [소프트웨어 아키텍처](#소프트웨어-아키텍처)
+
+
+## 서비스 소개<a id="서비스-소개"></a>
+### 개발 필요성
+
+### 타깃 고객층
+
+### 핵심 기능
+| 기능                           | 설명                                                                                             |
+|-------------------------------|--------------------------------------------------------------------------------------------------|
+| 헬스장 입&퇴실                 | 헬스장 입실할 때와 퇴실할 때 태그를 찍으면 기록을 남깁니다.                                           |
+| 로그인                        | 사용자의 개인정보를 받습니다.                                                                       |
+| 회원 목록 관리                 | pt 트레이너는 회원 검색 시 특정 회원을 찾을 수 있고, 개인 정보(현재 운동량)을 확인할 수 있습니다.       |
+| 회원 일정 관리                 | pt 트레이너는 회원의 운동 일정을 추가하거나 삭제할 수 있으며, 이는 회원 일정에도 반영됩니다.            |
+| rfid 정상 작동                | RFID 태그가 정상 작동하는 지 확인합니다.                                                            |
+| NFC 수정                      | 데이터베이스에 저장된 NFC 고유 id값을 수정합니다.                                                    |
+| web에서 운동기구 예약          | 홈페이지에서 운동기구를 예약할 수 있습니다.                                                          |
+| 태그 찍고 운동기구 사용         | 운동기구 옆에 붙어있는 단말기에 자신의 key를 가져다 대면 운동기구 사용중으로 데이터베이스에 저장됩니다.  |
+| 예약된 운동기구를 사용으로 전환 | 예약된 시간이 되면 예약 -> 사용중으로 전환됩니다.                                                    |
 
 ### 왜 Raspbarry pi를 사용했을까?
 [Raspbarry pi를 사용한 이유](https://www.notion.so/likelion/Raspberry-Pi-ff20056a10ed433b8af565bd3bf79e7e)
+
+## backend 기술 스택<a id="백엔드-기술-스택"></a>
+
+## 소프트웨어 아키텍처<a id="소프트웨어-아키텍처"></a>
+### ERD 설계도
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white">
+
