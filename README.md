@@ -46,10 +46,17 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=for-the-badge&logo=raspberry-pi&logoColor=white)
+![RPi.GPIO](https://img.shields.io/badge/RPi.GPIO-0078D7?style=for-the-badge&logo=python&logoColor=white)
+![MFRC522](https://img.shields.io/badge/MFRC522-009688?style=for-the-badge&logo=nfc&logoColor=white)
+
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 
+<!-- - **Raspberry Pi**: 저렴하고 강력한 싱글 보드 컴퓨터
+- **RPi.GPIO**: Raspberry Pi의 GPIO 핀을 쉽게 제어할 수 있게 해주는 라이브러리
+- **MFRC522**: RFID/NFC 리더 모듈을 다루기 위한 라이브러리로, 카드 인식 및 데이터 전송 기능을 제공 -->
 
 ## 소프트웨어 아키텍처<a id="소프트웨어-아키텍처"></a>
 ### ERD 설계도
