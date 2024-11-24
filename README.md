@@ -6,14 +6,21 @@
 
 ## 목차
 * [서비스 소개](#서비스-소개)
-* [backend 기술 스택](#백엔드-기술-스택)
+* [기술 스택](#백엔드-기술-스택)
 * [소프트웨어 아키텍처](#소프트웨어-아키텍처)
 
 
 ## 서비스 소개<a id="서비스-소개"></a>
 ### 개발 필요성
+<p>헬스를 하다보면 내가 사용하고 싶은 운동기구를 다른 사람이 사용하고 있을 때가 참 많습니다. 특히 사람이 많은 헬스장이거나 많이 몰리는 시간대이면 그날 하루는 그 운동을 못하는 상황이 발생하게 됩니다. 이럴 때 운동 기구 사용 현황을 제공해주는 사이트가 있다면 현재 운동 기구가 사용되고 있는 지 확인하고 사용 가능한 시간에 맞춰가면 되기 때문에 위 같은 문제가 해결될 것입니다.</p>
+
+### 문제 솔루션
+운동기구 사용량을 실시간으로 측정하여 현재 운동 기구마다 사용 현황 정보를 제공해 줄 수 있습니다.
 
 ### 타깃 고객층
+헬스장 사장님 : 
+- 회원이 너무 많아 운동 기구 사용에 불편을 겪고 있으며 고객의 불편을 해소시키기 위해서 헬스장 확장을 염두해 두고 계시는 사장님
+- 새롭게 헬스장을 창업&분점을 내려고 하는 데 이러한 문제를 미리 방지하고 싶으신 사장님.
 
 ### 핵심 기능
 | 기능                           | 설명                                                                                             |
@@ -31,9 +38,21 @@
 ### 왜 Raspbarry pi를 사용했을까?
 [Raspbarry pi를 사용한 이유](https://www.notion.so/likelion/Raspberry-Pi-ff20056a10ed433b8af565bd3bf79e7e)
 
-## backend 기술 스택<a id="백엔드-기술-스택"></a>
+## 기술 스택<a id="백엔드-기술-스택"></a>
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+
 
 ## 소프트웨어 아키텍처<a id="소프트웨어-아키텍처"></a>
 ### ERD 설계도
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white">
+![erd image](./static/gym_vym%20ERD.png)
+
 
